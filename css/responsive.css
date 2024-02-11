@@ -1,0 +1,114 @@
+@media only screen and (max-width:1025px){
+    header{
+        height: 50vh;
+    }
+    #about{
+        height: auto;
+    }
+    #about .left-side{
+        margin-left: 2rem;
+        width: 50rem;
+    }
+    #family{
+        height: auto;
+    }
+    #family .left-side{
+        margin-left: 2rem;
+    }
+    #aim{
+        height: auto;
+        
+    }
+    #contact{
+        height: auto;
+    }
+    #contact .left-side{
+        margin: 1rem;
+    }
+    #contact .right-side{
+        margin: 1rem;
+    }
+}
+@media only screen and (max-width:992px){
+    html{
+        font-size: 60%;
+    }
+    header nav ul{
+        display: none;
+    }
+    #about .left-side{
+        width: 40rem;
+    }
+    #about .right-side{
+        width: 25rem;
+    }
+    #family .left-side{
+        width: 50rem;
+    }
+    #family .right-side{
+        width: 25rem; 
+    }
+}
+@media only screen and (max-width:768px){
+    html{
+        font-size: 60%;
+    } 
+    #about .left-side{
+        width: 35rem;
+        margin: 6rem 1rem 0 1rem;
+    }
+    #about .right-side{
+        width: 20rem;
+        
+    }
+    #family .left-side{
+        width: 35rem;
+    }
+    #family .right-side{
+        width: 22rem;
+        margin-left: 2.7rem;
+    }
+    #aim .left-side{
+        width: 45rem;
+        margin: 0 auto;
+    }
+    
+}
+@media only screen and (max-width:576px){
+    html{
+        font-size: 60%;
+    }
+    #about .left-side{
+        width: 45rem;
+        margin: 0 auto;
+    }
+    #family .right-side{
+        margin: 0 auto;
+    }
+    .left-side{
+        float: none;
+        margin: 0 auto;
+    }
+     .right-side{
+        float: none;
+        margin: 0 auto;
+    }
+    #contact .left-side{
+        margin: 1rem auto;
+    }
+    #contact .right-side{
+        margin: 2rem auto;
+    }
+}
+@media only screen and (max-width:480px ){
+     html{
+        font-size: 50%;
+    }
+    img{
+        width: 8rem;
+        height: 8rem;
+    }
+}
+@media only screen and (max-width: 320px){
+   
+}
